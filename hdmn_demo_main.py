@@ -1,12 +1,13 @@
 import requests
 
-url = 'https://hidemyname.org/ru/demo/'
+#url = 'https://hidemyname.org/ru/demo/' #to 30.08.2025
+url = 'https://hxdemy.name/demo/'# from 30.08.2025
 
 if 'Ваша электронная почта' in requests.get(url).text:
     
     email = input('Введите электронную почту для получения тестового периода: ')
 
-    response = requests.post('https://hidemyname.org/ru/demo/success/', data={
+    response = requests.post('https://hxdemy.name/demo/success/', data={
         "demo_mail": f"{email}"
     })
 

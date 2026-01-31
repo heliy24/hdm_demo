@@ -4,8 +4,8 @@ import requests
 #url = 'https://hxdemy.name/demo/'# from 30.08.2025 to 25.09.2025
 #url = 'https://hide-my-name.org/demo/' # from 25.09.2025
 #url = 'https://hide-my-name.com/demo/' # from 06.10.2025
-url = 'https://hide-my-name.org/demo/' # from 23.10.2025
-#url = 'https://hide-my-name.com/' # from 01.02.2026
+#url = 'https://hide-my-name.org/demo/' # from 23.10.2025
+url = 'https://hide-my-name.com/' # from 01.02.2026
 #url = 'https://safeclick.email/' # from 01.02.2026
 
 if 'Ваша электронная почта' in requests.get(url).text:

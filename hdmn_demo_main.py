@@ -8,6 +8,7 @@ import requests
 #url = 'https://hide-my-name.com/' # from 01.02.2026
 #url = 'https://safeclick.email/' # from 01.02.2026
 url = 'https://hide-my-name.app/' # from 26.02.2026
+url = 'https://hide-my-name.cc/' # from 22.06.2026
 
 if 'Ваша электронная почта' in requests.get(url).text:
     
